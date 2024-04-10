@@ -1,6 +1,6 @@
 # mellon
 
-<img src="https://github.com/rainoffallingstar/mellon/blob/master/dev/logo.png" height="200" align="right"/>
+<img src="https://github.com/rainoffallingstar/mellon/blob/master/dev/logo.jpg" height="200" align="right"/>
 
 This is a shiny-app package with all the mellon (means friend) created by us. 
 
