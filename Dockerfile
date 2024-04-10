@@ -1,12 +1,8 @@
 #dockerfile
-# build image 
-FROM rocker/shiny
-
-# create location for app
-RUN mkdir /home/shiny-app && \
-    R -e 'install.packages("pak")' && \
-    R -e 'pak::pkg_install(c("shiny","shinyWidgets","readxl","fs","dplyr","tidyr","stringr","bslib","thematic"),
-    upgrade = TRUE,ask= FALSE, dependencies = NA)'
+# build image
+FROM rocker/shiny:latest
+RUN R -e 'install.packages("pak")' && \
+    R -e 'pak::pkg_install(c("shiny","shinyWidgets","readxl","fs","dplyr","tidyr","stringr","bslib","thematic"),upgrade = TRUE,ask= FALSE, dependencies = NA)'
 RUN mkdir /deploy
 ADD . /deploy
 WORKDIR /deploy
