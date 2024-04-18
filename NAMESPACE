@@ -2,4 +2,5 @@
 
 export("%>%")
 export(hemat_assistant)
+export(survival_assistant)
 importFrom(magrittr,"%>%")

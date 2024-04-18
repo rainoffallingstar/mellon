@@ -52,6 +52,19 @@ Note: when you will use other flat templates, this part will be in a separate fi
 
   
 
+# survival_assistant
+
+    
+
+  
+
+```{r example-survival_assistant}
+
+```
+
+  
+
+  
 
 
 <!-- 

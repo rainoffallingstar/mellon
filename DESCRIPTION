@@ -12,11 +12,16 @@ Depends:
 Imports: 
     bslib,
     dplyr,
+    DT,
     magrittr,
+    readxl,
     shiny,
     shinyWidgets,
     stringr,
-    thematic
+    survival,
+    survminer,
+    thematic,
+    tidyr
 Suggests: 
     knitr,
     rmarkdown,

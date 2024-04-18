@@ -1,8 +1,12 @@
 flat_first.Rmd:
   path: dev/flat_first.Rmd
   state: active
-  R: R/hemat_assistant.R
-  tests: tests/testthat/test-hemat_assistant.R
+  R:
+  - R/hemat_assistant.R
+  - R/survival_assistant.R
+  tests:
+  - tests/testthat/test-hemat_assistant.R
+  - tests/testthat/test-survival_assistant.R
   vignettes: vignettes/get-started.Rmd
   inflate:
     flat_file: dev/flat_first.Rmd
