@@ -2,5 +2,6 @@
 
 export("%>%")
 export(hemat_assistant)
+export(origene_primer_search)
 export(survival_assistant)
 importFrom(magrittr,"%>%")

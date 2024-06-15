@@ -3,10 +3,12 @@ flat_first.Rmd:
   state: active
   R:
   - R/hemat_assistant.R
+  - R/origene_primer_search.R
   - R/survival_assistant.R
   tests:
   - tests/testthat/test-hemat_assistant.R
   - tests/testthat/test-survival_assistant.R
+  - tests/testthat/test-origene_primer_search.R
   vignettes: vignettes/get-started.Rmd
   inflate:
     flat_file: dev/flat_first.Rmd
@@ -15,3 +17,4 @@ flat_first.Rmd:
     check: true
     document: true
     overwrite: ask
+    clean: ask

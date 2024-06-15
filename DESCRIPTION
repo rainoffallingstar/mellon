@@ -11,10 +11,13 @@ Depends:
     R (>= 2.10)
 Imports: 
     bslib,
+    chromote,
     dplyr,
     DT,
+    glue,
     magrittr,
     readxl,
+    rvest,
     shiny,
     shinyWidgets,
     stringr,
@@ -28,7 +31,7 @@ Suggests:
     testthat
 VignetteBuilder: 
     knitr
-Config/fusen/version: 0.5.2
+Config/fusen/version: 0.6.0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
