@@ -1673,7 +1673,7 @@ origene_primer_search <- function(gene = "ITGA9",
   }else {
     message("fetching gene information ...")
     dest_info <-  paste0("https://www.origene.com.cn",dest_link[1])%>% 
-      read_html() %>% 
+      rvest::read_html() %>% 
       rvest::html_elements("tr.attribute") %>% 
       rvest::html_text()
     forward_sequence = dest_info[grepl("Forward Sequence",dest_info)] %>% 
